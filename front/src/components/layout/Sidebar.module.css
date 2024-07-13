@@ -1,11 +1,12 @@
 .menuButton {
   position: fixed;
   left: 1.5rem;
-  top: .8rem;
+  top: 1.5rem;
   z-index: 1000; /* Button must be above the sidebar */
   cursor: pointer;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .sidebar {
@@ -32,7 +33,7 @@
 
 .sidebarMenu li a, .menuButton {
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   color: var(--dark-color);
   background-color: var(--light-color);
@@ -47,8 +48,11 @@
 }
 
 .sidebarMenu li a:hover, .menuButton:hover, .active {
-  filter: brightness(0.85);
+  filter: brightness(0.90);
+  transition: .5s ease;
 }
+
+
 
 .sidebar button{
   position: fixed;

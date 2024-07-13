@@ -1,5 +1,5 @@
 .btn{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     height: 25px;
     width: 175px;
     border: none;
@@ -11,6 +11,6 @@
 }
 
 .btn:hover{
-    background-color: var(--primary-color);
-    color: var(--dark-color);
+    background-color: var(--secondary-color);
+    filter: brightness(0.85);
 }

@@ -17,26 +17,13 @@ const AppRoutes: React.FC = () => {
                 {/* Public Routes */}
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+                <Route path="/home" element={<HomePage />} />    
+                <Route path="/bets" element={<BetsPage />} />
+                <Route path="/leaderboard" element={<LeaderboardPage />} />
 
-                {/* Private Routes */}
-                <Route path="/" element={
-                    <PrivateRoute>
-                        <HomePage />
-                    </PrivateRoute>
-                } />
-                <Route path="/bets" element={
-                    <PrivateRoute>
-                        <BetsPage />
-                    </PrivateRoute>
-                } />
                 <Route path="/winners" element={
                     <PrivateRoute>
                         <WinnersPage />
-                    </PrivateRoute>
-                } />
-                <Route path="/leaderboard" element={
-                    <PrivateRoute>
-                        <LeaderboardPage />
                     </PrivateRoute>
                 } />
                 <Route path="/user" element={

@@ -8,10 +8,23 @@ footer{
 
 footer p, footer a{
     color: var(--light-color);
-    text-align: center;
-    padding: 15px 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    text-align: right;
+    padding: 5px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
     font-weight: 200;
-    margin: 0;
+    margin-right: .5rem;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer .subtext{
+    font-size: .8rem;
+    font-weight: 200;
+    text-align: right;
+    padding-bottom: 5px;
+    margin-right: 1rem;
 }

@@ -2,102 +2,111 @@ import React, { useState, useEffect } from 'react';
 import Header from '../../components/layout/Header';
 import Sidebar from '../../components/layout/Sidebar';
 import Footer from '../../components/layout/Footer';
-import NomineesCard from '../../components/common/NomineesCard';
-import "../../styles/system.css"
+import VotingCard from '../../components/common/VotingCard'; 
+import "../../styles/system.css";
 import styles from './BetsComponent.module.css';
-import api from '../../libs/api';
-import { AxiosError } from 'axios';
-import { Category } from '../../types/Category';
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import jsonData from '../../assets/data.json'; // Assuming your JSON data is in a file named data.json
 
 const BetsPage: React.FC = () => {
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState<{ category: string; nominees: { id: number; movieTitle: string; name: string; }[]; }[]>([]);
+  
+  // Change the type of 'id' property in the 'Nominee' type to 'number'
+  type Nominee = {
+    id: number;
+    movieTitle: string;
+    name: string;
+    img: string;
+  };
   const [currentCategoryIndex, setCurrentCategoryIndex] = useState<number>(() => {
-    // Get the current category index from the local storage
     const savedIndex = localStorage.getItem('currentCategoryIndex');
     return savedIndex ? parseInt(savedIndex, 10) : 0;
   });
-  const [currentCategory, setCurrentCategory] = useState<Category>();
+  const [currentCategory, setCurrentCategory] = useState<{ category: string; nominees: Nominee[]; value: number } | undefined>();
   const [loaded, setLoaded] = useState(false);
   const [msg, setMsg] = useState('');
 
-  const sendNominee = async (selectedNominee: Number) => {
+  const transformDataToCategories = (data: { id?: number, Category: string, Nominee: string, "Developer/Publisher": string }[]) => {
+    const categoryMap: { [key: string]: { category: string, nominees: Nominee[]; } } = {};
+  
+    data.forEach((item) => {
+      const categoryName = item.Category;
+  
+      if (!categoryMap[categoryName]) {
+        categoryMap[categoryName] = {
+          category: categoryName,
+          nominees: []
+        };
+      }
+      
+      categoryMap[categoryName].nominees.push({
+        id: item.id ? item.id : 0, // Use item.id directly instead of converting it to Number()
+        movieTitle: item.Nominee,
+        name: item["Developer/Publisher"],
+        img: "" // Add the 'img' property with an empty string value
+      });
+    });
+  
+    return Object.values(categoryMap);
+  };
+
+  useEffect(() => {
+    const transformedData = transformDataToCategories(jsonData);
+    setCategories(transformedData);
+    setCurrentCategory({...transformedData[currentCategoryIndex], value: 0}); // Assuming default value of 0 for 'value'
+    setLoaded(true);
+  }, []);
+
+  const sendNominee = async (selectedNominee: number) => {
     if (selectedNominee === null) {
       setMsg("Please select a nominee.");
       return;
     }
 
-    const category = currentCategory as Category;
 
     try {
-      const response = await api.post<string>("/bet", {
-        nomineeId: selectedNominee,
-        categoryId: category._id,
-      });
+      // Simulate API call for sending nominee
+      // Replace with actual API call if needed
+      // const response = await api.post("/bet", {
+      //   nomineeId: selectedNominee,
+      //   categoryId: category.category,
+      // });
 
-      if(response.status === 201 || response.status === 200){
+      // Simulated response handling
+      // if (response.status === 201 || response.status === 200) {
+      if (true) { // Simulated success condition
         setMsg("Nominee sent successfully.");
-
-        // Send back to the page so the user can see the updated bets
-        window.location.href = "/bets";
-      }else{
+        window.location.href = "/bets"; // Redirect to bets page
+      } else {
         setMsg("An unexpected error occurred.");
       }
     } catch (error) {
-      const axiosError = error as AxiosError;
-      setMsg(axiosError.response?.data as string || "An unexpected error occurred.");
-
-      if (axiosError.response?.status === 401 || axiosError.response?.status === 400) {
-        localStorage.removeItem("token");
-        window.location.href = "/login";
-      }
+      console.error("Error sending nominee:", error);
+      setMsg("An unexpected error occurred.");
     }
   };
-
-  useEffect(() => {
-    // Fetch categories from the API
-    const fetchCategories= async () => {
-      try {
-        const response = await api.get('/nominees');
-        setCategories(response.data);
-        setCurrentCategory(response.data[currentCategoryIndex]);
-        setLoaded(true);
-        // console.log('Nominees:', response.data);
-      } catch (error) {
-        console.error('Categories Error:', error);
-
-        // Case token expired or invalid
-        if ((error as any).response?.status === 401 || (error as any).response?.status === 400) {
-          // Redirect to login and clear the token
-          localStorage.removeItem('token');
-          window.location.href = '/login';
-        }
-      }
-    };
-    fetchCategories();
-  }, []);
 
   const navigateToNextCategory = () => {
     const nextIndex = currentCategoryIndex + 1 < categories.length ? currentCategoryIndex + 1 : 0;
     setCurrentCategoryIndex(nextIndex);
-    setCurrentCategory(categories[nextIndex]);
+    setCurrentCategory({...categories[nextIndex], value: 0, nominees: categories[nextIndex].nominees.map(nominee => ({ ...nominee, img: "" }))});
     localStorage.setItem('currentCategoryIndex', nextIndex.toString());
   };
 
   const navigateToPreviousCategory = () => {
     const prevIndex = currentCategoryIndex - 1 >= 0 ? currentCategoryIndex - 1 : categories.length - 1;
     setCurrentCategoryIndex(prevIndex);
-    setCurrentCategory(categories[prevIndex]);
+    setCurrentCategory({...categories[prevIndex], value: 0, nominees: categories[prevIndex].nominees.map(nominee => ({ ...nominee, img: "" }))});
     localStorage.setItem('currentCategoryIndex', prevIndex.toString());
   };
 
-  return (document.title = 'Bets',
+  return (
     <div className='system-body'>
       <Header />
       <Sidebar />
       <div className={styles.card}>
         <button onClick={navigateToPreviousCategory} className={styles.arrow}><GoArrowLeft /></button>
-        {loaded && <NomineesCard category={currentCategory as Category} msg={msg} onClick={sendNominee} showBtn={true}/>} {/* If available, pass the current category to the NomineesCard component */}
+        {loaded && <VotingCard category={currentCategory as { category: string, nominees: { id: number; movieTitle: string; name: string; img: string;}[], value: number }} msg={msg} onClick={sendNominee} showBtn={true} />}
         <button onClick={navigateToNextCategory} className={styles.arrow}><GoArrowRight /></button>
       </div>
       <Footer />

@@ -25,7 +25,7 @@ const Sidebar = () => {
       </button>
       <div className={`${styles.sidebar} ${isSidebarOpen ? styles.open : ''}`}>
         <ul className={styles.sidebarMenu}>
-            <li className={window.location.pathname === '/' ? styles.active : ''}><a href="/"><FaHome /> Home</a></li>
+            <li className={window.location.pathname === '/home' ? styles.active : ''}><a href="/home"><FaHome /> Home</a></li>
             <li className={window.location.pathname === '/bets' ? styles.active : ''}><a href="/bets"><FaClipboardList /> Bets</a></li>
             <li className={window.location.pathname === '/winners' ? styles.active : ''}><a href="/winners"><FaTrophy /> Winners</a></li>
             <li className={window.location.pathname === '/leaderboard' ? styles.active : ''}><a href="/leaderboard"><MdLeaderboard /> Leaderboard</a></li>

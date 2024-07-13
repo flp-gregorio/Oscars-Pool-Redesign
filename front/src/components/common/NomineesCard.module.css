@@ -1,32 +1,35 @@
-.category{
-    font-size: 24px;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    width: 300px;
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    background-color: var(--dark-color);
+    padding: 7px;
 }
 
-.category span{
-    font-weight: bold;
-    margin-left: 10px;
-    background-color: var(--secondary-color);
-    padding: 2px 7px;
-    border-radius: 5px;
+.category{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    width: 270px;
 }
 
 .nominees{
-    width: 300px;
+    width: 270px;
     align-items: center;
     justify-content: center;
 }
 
 .nomineeButton{
-    width: 300px;
+    width: 270px;
     margin: 2px 0;
-    background-color: var(--dark-color);
+    background-color: var(--light-color);
     border: none;
-    border-radius: 5px;
     padding: 4px;
+    border-radius: 5px;
 }
 
 .nomineeButton:hover{
@@ -39,11 +42,11 @@
 }
 
 .selected{
-    background-color: var(--light-color);
+    background-color: var(--primary-color);
 }
 
 .selected p{
-    color: var(--dark-color);
+    color: var(--light-color);
 }
 
 .winner{
@@ -51,18 +54,19 @@
 }
 
 .nomineeMovie{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-transform: uppercase;
     text-align: left;
     margin: 0;
 }
 
 .nomineeName{
-    font-size: 11px;
-    color: white;
-    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(20, 20, 20);
+    text-align: right;
     font-style: italic;
     margin: 0;
 }

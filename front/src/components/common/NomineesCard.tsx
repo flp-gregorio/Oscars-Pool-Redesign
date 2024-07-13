@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./NomineesCard.module.css";
 import { Category } from "../../types/Category";
 import Button from "./Button";
@@ -20,15 +20,22 @@ const NomineesCard = (CardProps: NomineesCardProps) => {
     setSelectedNominee(null);
   };
 
+  if (!Array.isArray(category.nominees)) {
+    return <div>No nominees available</div>; // Render a placeholder or handle the error state
+  }
+
   return (
     <div className={styles.container}>
-      <h3 className={styles.category}>{category.category}<span>{category.value}</span></h3>
+      <h3 className={styles.category}>
+        {category.category}
+      </h3>
       <div className={styles.nominees}>
         {category.nominees.map((nominee: Nominee) => (
-          <div key={nominee.id} className={styles.nominee}>
+          <div key={String(nominee.id)} className={styles.nominee}>
             <button
-              onClick={() => setSelectedNominee(nominee.id)}
+              onClick={() => setSelectedNominee(Number(nominee.id))}
               className={`${styles.nomineeButton} ${selectedNominee === nominee.id ? styles.selected : ""} ${nominee.userBet ? styles.userBet : ""} ${category.winner === nominee.id ? styles.winner : ""}`}
+
             >
               <p className={styles.nomineeMovie}>{nominee.movieTitle}</p>
               <p className={styles.nomineeName}>{nominee.name}</p>
@@ -37,7 +44,8 @@ const NomineesCard = (CardProps: NomineesCardProps) => {
         ))}
       </div>
       <div className={styles.send}>
-        {showBtn && <Button onClick={sendNominee}>Send Nominee</Button>}  {/* Shows the button if the showBtn prop is true */}
+        {showBtn && <Button onClick={sendNominee}>Confirm Nominee</Button>}{" "}
+        {/* Shows the button if the showBtn prop is true */}
         <p>{msg}</p>
       </div>
     </div>

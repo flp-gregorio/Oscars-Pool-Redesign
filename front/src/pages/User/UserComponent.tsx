@@ -104,19 +104,19 @@ const UserPage = () => {
             {available && <div className={styles.userContainer}>
                 <div className={styles.betsContainer}>
                     <h2 className={styles.title}>Bets</h2>
-                    <p>Hello, <span className={styles.username}>{user.username}</span>, you made <span className={styles.betsNumber}>{user.betNumber}/19</span> bets.</p>
+                    <p>Hello, <span className={styles.username}>{user.username}</span>, you made <span className={styles.betsNumber}>{user.betNumber}</span> bets.</p>
                 </div>
                 <div className={styles.profileContainer}>
                     <h2 className={styles.title}>Profile{user.admin && <span className={styles.admin}>ADMIN</span>}</h2>
                     <div className={styles.changesContainer}>
                         <form onSubmit={handleSubmitUsername(changeUsername)}>
-                            <input type="text" {...registerUsername('username')} placeholder={user.username} />
+                            <label></label><input type="text" {...registerUsername('username')} placeholder="New Username" />
                             <button type="submit">Change</button>
                             {errorsUsername.username && <p>{errorsUsername.username.message}</p>}
                             {msgUsername && <p>{msgUsername}</p>}
                         </form>
                         <form onSubmit={handleSubmitPassword(changePassword)}>
-                            <input type="password" {...registerPassword('password')} placeholder="New Password" />
+                            <label></label><input type="password" {...registerPassword('password')} placeholder="New Password" />
                             <button type="submit">Change</button>
                             {errorsPassword.password && <p>{errorsPassword.password.message}</p>}
                             {msgPassword && <p>{msgPassword}</p>}

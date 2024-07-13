@@ -1,9 +1,10 @@
-import "./Footer.module.css";
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Made by <a href="https://github.com/LeandroRochAlg" target="_blank">Leandro Rocha</a></p>
+    <footer className={styles.footer}>
+      <p>Made by <a href="https://github.com/flp-gregorio/" target="_blank">Felipe Gregorio</a></p>
+      <p className={styles.subtext}>© Copyright 2024. All rights reserved.</p>
     </footer>
   );
 };

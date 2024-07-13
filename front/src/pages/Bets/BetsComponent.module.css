@@ -7,13 +7,13 @@
 
 .arrow{
     font-size: 26px;
-    background-color: var(--light-color);
-    color: var(--dark-color);
+    background-color: var(--primary-color);
+    color: var(--light-color);
     cursor: pointer;
     border: none;
     border-radius: 5px;
     margin: 5px;
-    height: 40px;
+    height: 80px;
     width: 40px;
 }
 

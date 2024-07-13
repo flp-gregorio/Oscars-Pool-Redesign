@@ -1,6 +1,7 @@
 export interface Nominee {
-    id: number;
+    id: Number;
     name: string;
+    img: string;
     movieTitle: string;
     userBet?: boolean;
 }

@@ -7,9 +7,16 @@
     padding: 1rem;
 }
 
+.leaderboardContainer h2{
+    text-align: center;
+}
+
 .leaderboardTitle{
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .leaderboardTable{
@@ -50,15 +57,15 @@
 }
 
 .firstPlace{
-    color: #d39f03;
+    color: #e9b20d;
 }
 
 .secondPlace{
-    color: #A6A6A6;
+    color: #c7d1ce;
 }
 
 .thirdPlace{
-    color: #A64D00;
+    color: #813d01;
 }
 
 @media screen and (max-width: 700px){
