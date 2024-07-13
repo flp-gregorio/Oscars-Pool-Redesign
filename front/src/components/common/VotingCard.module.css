@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    background-color: var(--dark-color);
+    padding: 7px;
+}
+
+.category{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    width: 270px;
+}
+
+.nominees{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.nominees img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc; /* Add a border to see if the image container is rendered */
+}
+
+.nomineeButton{
+    height: 150px;
+    margin: 2px 2px;
+    background-color: var(--light-color);
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.nomineeButton:hover{
+    filter: brightness(0.85);
+    cursor: pointer;
+}
+
+.nomineeContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.userBet{
+    background-color: var(--secondary-color);
+}
+
+.selected{
+    background-color: var(--primary-color);
+}
+
+.selected p{
+    color: var(--light-color);
+}
+
+.winner{
+    background-color: var(--primary-color);
+}
+
+.nomineeMovie{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+}
+
+.nomineeName{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(20, 20, 20);
+    text-align: right;
+    font-style: italic;
+    margin: 0;
+}
+
+.send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px;
+}
+
+@media screen and (min-width: 600px) and (max-height: 700px){
+    .category{
+        width: 500px;
+    }
+
+    .nomineeButton{
+        width: 150px;
+    }
+
+    .nominees{
+        width: 1000px;
+    }
+    
+}
+
+@media screen and (max-height: 700px) and (max-width: 600px){
+    .category{
+        font-size: 18px;
+    }
+
+    .nomineeMovie{
+        font-size: 12px;
+    }
+
+    .nomineeName{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,963 @@
+[
+    {
+      "Category": "Game of the Year",
+      "id": 1,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Game of the Year",
+      "id": 2,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios",
+      "img": "https://cdn.thegameawards.com/1/2023/11/baldurs_gate_3.jpg"
+    },
+    {
+      "Category": "Game of the Year",
+      "id": 3,
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Game of the Year",
+      "id": 4,
+      "Nominee": "Resident Evil 4",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Game of the Year",
+      "id": 5,
+      "Nominee": "Super Mario Bros. Wonder",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Game of the Year",
+      "id": 6,
+      "Nominee": "The Legend of Zelda: Tears of the Kingdom",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Game Direction",
+      "id": 7,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Best Game Direction",
+        "id": 8,    
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios"
+    },
+    {
+      "Category": "Best Game Direction",
+        "id": 9,    
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Best Game Direction",
+        "id": 10,
+      "Nominee": "Super Mario Bros. Wonder",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Game Direction",
+        "id": 11,
+      "Nominee": "The Legend of Zelda: Tears of the Kingdom",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Adaptation",
+        "id": 12,
+      "Nominee": "Castlevania: Nocturne",
+      "Developer/Publisher": "Powerhouse Animation/Netflix"
+    },
+    {
+      "Category": "Best Adaptation",
+        "id": 13,
+      "Nominee": "Gran Turismo",
+      "Developer/Publisher": "PlayStation Productions/Sony Pictures"
+    },
+    {
+      "Category": "Best Adaptation",
+        "id": 14,
+      "Nominee": "The Last of Us",
+      "Developer/Publisher": "PlayStation Productions/HBO"
+    },
+    {
+      "Category": "Best Adaptation",
+        "id": 15,
+      "Nominee": "The Super Mario Bros. Movie",
+      "Developer/Publisher": "Illumination/Nintendo/Universal Pictures"
+    },
+    {
+      "Category": "Best Adaptation",
+        "id": 16,
+      "Nominee": "Twisted Metal",
+      "Developer/Publisher": "PlayStation Productions/Peacock"
+    },
+    {
+      "Category": "Best Narrative",
+        "id": 17,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Best Narrative",
+        "id": 18,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios"
+    },
+    {
+      "Category": "Best Narrative",
+        "id": 19,
+      "Nominee": "Cyberpunk 2077: Phantom Liberty",
+      "Developer/Publisher": "CD Projekt Red"
+    },
+    {
+      "Category": "Best Narrative",
+        "id": 20,
+      "Nominee": "Final Fantasy XVI",
+      "Developer/Publisher": "Square Enix"
+    },
+    {
+      "Category": "Best Narrative",
+        "id": 21,
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Best Art Direction",
+        "id": 22,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Best Art Direction",
+        "id": 23,
+      "Nominee": "Hi-Fi Rush",
+      "Developer/Publisher": "Tango Gameworks/Bethesda Softworks"
+    },
+    {
+      "Category": "Best Art Direction",
+        "id": 24,
+      "Nominee": "Lies of P",
+      "Developer/Publisher": "Round8 Studio/Neowiz Games"
+    },
+    {
+      "Category": "Best Art Direction",
+        "id": 25,
+      "Nominee": "Super Mario Bros. Wonder",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Art Direction",
+        "id": 26,
+      "Nominee": "The Legend of Zelda: Tears of the Kingdom",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Score and Music",
+        "id": 27,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Composer Petri Alanko (Remedy Entertainment/Epic Games Publishing)"
+    },
+    {
+      "Category": "Best Score and Music",
+        "id": 28,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Composer Borislav Slavov (Larian Studios)"
+    },
+    {
+      "Category": "Best Score and Music",
+        "id": 29,
+      "Nominee": "Final Fantasy XVI",
+      "Developer/Publisher": "Composer Masayoshi Soken (Square Enix)"
+    },
+    {
+      "Category": "Best Score and Music",
+        "id": 30,
+      "Nominee": "Hi-Fi Rush",
+      "Developer/Publisher": "Audio Director Shuichi Kobori (Tango Gameworks/Bethesda Softworks)"
+    },
+    {
+      "Category": "Best Score and Music",
+        "id": 31,
+      "Nominee": "The Legend of Zelda: Tears of the Kingdom",
+      "Developer/Publisher": "Composed by Nintendo Sound Team (Nintendo EPD/Nintendo)"
+    },
+    {
+      "Category": "Best Audio Design",
+        "id": 32,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Best Audio Design",
+        "id": 33,
+      "Nominee": "Dead Space",
+      "Developer/Publisher": "Motive Studio/EA"
+    },
+    {
+      "Category": "Best Audio Design",
+        "id": 34,
+      "Nominee": "Hi-Fi Rush",
+      "Developer/Publisher": "Tango Gameworks/Bethesda Softworks"
+    },
+    {
+      "Category": "Best Audio Design",
+        "id": 35,
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Best Audio Design",
+        "id": 36,
+      "Nominee": "Resident Evil 4",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 37,
+      "Nominee": "Ben Starr",
+      "Developer/Publisher": "Final Fantasy XVI"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 38,
+      "Nominee": "Cameron Monaghan",
+      "Developer/Publisher": "STAR WARS Jedi: Survivor"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 39,
+      "Nominee": "Idris Elba",
+      "Developer/Publisher": "Cyberpunk 2077: Phantom Liberty"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 40,
+      "Nominee": "Melanie Liburd",
+      "Developer/Publisher": "Alan Wake 2"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 41,
+      "Nominee": "Neil Newbon",
+      "Developer/Publisher": "Baldur’s Gate 3"
+    },
+    {
+      "Category": "Best Performance",
+        "id": 42,
+      "Nominee": "Yuri Lowenthal",
+      "Developer/Publisher": "Marvel’s Spider-Man 2"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 43,
+      "Nominee": "Diablo IV",
+      "Developer/Publisher": "Blizzard Entertainment"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 44,
+      "Nominee": "Forza Motorsport",
+      "Developer/Publisher": "Turn 10 Studios/Xbox Game Studios"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 45,
+      "Nominee": "Hi-Fi Rush",
+      "Developer/Publisher": "Tango Gameworks/Bethesda Softworks"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 46,
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 47,
+      "Nominee": "Mortal Kombat 1",
+      "Developer/Publisher": "NetherRealm Studios/WB Games"
+    },
+    {
+      "Category": "Innovation in Accessibility",
+        "id": 48,   
+      "Nominee": "Street Fighter 6",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 49,
+      "Nominee": "A Space for the Unbound",
+      "Developer/Publisher": "Mojiken Studio/Toge Productions/Chorus"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 50,
+      "Nominee": "Chants of Sennaar",
+      "Developer/Publisher": "Rundisc/Focus Entertainment"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 51,
+      "Nominee": "Goodbye Volcano High",
+      "Developer/Publisher": "KO_OP"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 52,
+      "Nominee": "Tchia",
+      "Developer/Publisher": "Awaceb/Kepler Interactive"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 53,
+      "Nominee": "Terra Nil",
+      "Developer/Publisher": "Free Lives/Devolver Digital/Netflix"
+    },
+    {
+      "Category": "Games for Impact",
+        "id": 54,
+      "Nominee": "Venba",
+      "Developer/Publisher": "Visai Games"
+    },
+    {
+      "Category": "Best Ongoing Game",
+        "id": 55,
+      "Nominee": "Apex Legends",
+      "Developer/Publisher": "Respawn Entertainment/EA"
+    },
+    {
+      "Category": "Best Ongoing Game",
+        "id": 56,
+      "Nominee": "Cyberpunk 2077",
+      "Developer/Publisher": "CD Projekt Red"
+    },
+    {
+      "Category": "Best Ongoing Game",
+        "id": 57,
+      "Nominee": "Final Fantasy XIV",
+      "Developer/Publisher": "Square Enix"
+    },
+    {
+      "Category": "Best Ongoing Game",
+        "id": 58,
+      "Nominee": "Fortnite",
+      "Developer/Publisher": "Epic Games"
+    },
+    {
+      "Category": "Best Ongoing Game",
+        "id": 59,
+      "Nominee": "Genshin Impact",
+      "Developer/Publisher": "HoYoverse"
+    },
+    {
+      "Category": "Best Community Support",
+        "id": 60,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios"
+    },
+    {
+      "Category": "Best Community Support",
+        "id": 61,
+      "Nominee": "Cyberpunk 2077",
+      "Developer/Publisher": "CD Projekt Red"
+    },
+    {
+      "Category": "Best Community Support",
+        "id": 62,
+      "Nominee": "Destiny 2",
+      "Developer/Publisher": "Bungie"
+    },
+    {
+      "Category": "Best Community Support",
+        "id": 63,
+      "Nominee": "Final Fantasy XIV",
+      "Developer/Publisher": "Square Enix"
+    },
+    {
+      "Category": "Best Community Support",
+        "id": 64,   
+      "Nominee": "No Man’s Sky",
+      "Developer/Publisher": "Hello Games"
+    },
+    {
+      "Category": "Best Independent Game",
+        "id": 65,
+      "Nominee": "Cocoon",
+      "Developer/Publisher": "Geometric Interactive/Annapurna Interactive"
+    },
+    {
+      "Category": "Best Independent Game",
+        "id": 66,
+      "Nominee": "Dave the Diver",
+      "Developer/Publisher": "MINTROCKET"
+    },
+    {
+      "Category": "Best Independent Game",
+        "id": 67,
+      "Nominee": "Dredge",
+      "Developer/Publisher": "Black Salt Games/Team 17"
+    },
+    {
+      "Category": "Best Independent Game",
+        "id": 68,
+      "Nominee": "Sea of Stars",
+      "Developer/Publisher": "Sabotage Studio"
+    },
+    {
+      "Category": "Best Independent Game",
+        "id": 69,
+      "Nominee": "Viewfinder",
+      "Developer/Publisher": "Sad Owl Studios/Thunderful Publishing"
+    },
+    {
+      "Category": "Best Debut Indie Game",
+        "id": 70,
+      "Nominee": "Cocoon",
+      "Developer/Publisher": "Geometric Interactive/Annapurna Interactive"
+    },
+    {
+      "Category": "Best Debut Indie Game",
+        "id": 71,
+      "Nominee": "Dredge",
+      "Developer/Publisher": "Black Salt Games/Team 17"
+    },
+    {
+      "Category": "Best Debut Indie Game",
+        "id": 72,
+      "Nominee": "Pizza Tower",
+      "Developer/Publisher": "Tour de Pizza"
+    },
+    {
+      "Category": "Best Debut Indie Game",
+        "id": 73,
+      "Nominee": "Venba",
+      "Developer/Publisher": "Visai Games"
+    },
+    {
+      "Category": "Best Debut Indie Game",
+        "id": 74,
+      "Nominee": "Viewfinder",
+      "Developer/Publisher": "Sad Owl Studios/Thunderful Publishing"
+    },
+    {
+      "Category": "Best Mobile Game",
+        "id": 75,
+      "Nominee": "Final Fantasy VII: Ever Crisis",
+      "Developer/Publisher": "Applibot/Square Enix"
+    },
+    {
+      "Category": "Best Mobile Game",
+        "id": 76,
+      "Nominee": "Honkai: Star Rail",
+      "Developer/Publisher": "HoYoverse"
+    },
+    {
+      "Category": "Best Mobile Game",
+        "id": 77,
+      "Nominee": "Hello Kitty Island Adventure",
+      "Developer/Publisher": "Sunblink Entertainment"
+    },
+    {
+      "Category": "Best Mobile Game",
+        "id": 78,
+      "Nominee": "Monster Hunter Now",
+      "Developer/Publisher": "Niantic/Capcom"
+    },
+    {
+      "Category": "Best Mobile Game",
+        "id": 79,
+      "Nominee": "Terra Nil",
+      "Developer/Publisher": "Free Lives/Devolver/Netflix"
+    },
+    {
+      "Category": "Best VR/AR Game",
+        "id": 80,
+      "Nominee": "Gran Turismo 7",
+      "Developer/Publisher": "Polyphony Digital/SIE"
+    },
+    {
+      "Category": "Best VR/AR Game",
+        "id": 81,
+      "Nominee": "Humanity",
+      "Developer/Publisher": "tha LTD/Enhance Games"
+    },
+    {
+      "Category": "Best VR/AR Game",
+        "id": 82,
+      "Nominee": "Horizon Call of the Mountain",
+      "Developer/Publisher": "Guerrilla Games/Firesprite/SIE"
+    },
+    {
+      "Category": "Best VR/AR Game",
+        "id": 83,
+      "Nominee": "Resident Evil Village VR Mode",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Best VR/AR Game",
+        "id": 84,
+      "Nominee": "Synapse",
+      "Developer/Publisher": "nDreams"
+    },
+    {
+      "Category": "Best Action Game",
+        "id": 85,
+      "Nominee": "Armored Core VI: Fires of Rubicon",
+      "Developer/Publisher": "FromSoftware/Bandai Namco"
+    },
+    {
+      "Category": "Best Action Game",
+        "id": 86,
+      "Nominee": "Dead Island 2",
+      "Developer/Publisher": "Dambuster Studios/Deep Silver"
+    },
+    {
+      "Category": "Best Action Game",
+        "id": 87,
+      "Nominee": "Ghostrunner 2",
+      "Developer/Publisher": "One More Level/505 Games"
+    },
+    {
+      "Category": "Best Action Game",
+        "id": 88,
+      "Nominee": "Hi-Fi Rush",
+      "Developer/Publisher": "Tango Gameworks/Bethesda Softworks"
+    },
+    {
+      "Category": "Best Action Game",
+        "id": 89,
+      "Nominee": "Remnant 2",
+      "Developer/Publisher": "Gunfire Games/Gearbox Publishing"
+    },
+    {
+      "Category": "Best Action/Adventure Game",
+        "id": 90,
+      "Nominee": "Alan Wake 2",
+      "Developer/Publisher": "Remedy Entertainment/Epic Games Publishing"
+    },
+    {
+      "Category": "Best Action/Adventure Game",
+        "id": 91,
+      "Nominee": "Marvel’s Spider-Man 2",
+      "Developer/Publisher": "Insomniac Games/SIE"
+    },
+    {
+      "Category": "Best Action/Adventure Game",
+        "id": 92,
+      "Nominee": "Resident Evil 4",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Best Action/Adventure Game",
+        "id": 93,
+      "Nominee": "Star Wars Jedi: Survivor",
+      "Developer/Publisher": "Respawn Entertainment/EA"
+    },
+    {
+      "Category": "Best Action/Adventure Game",
+        "id": 94,
+      "Nominee": "The Legend of Zelda: Tears of the Kingdom",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best RPG",
+        "id": 95,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios"
+    },
+    {
+      "Category": "Best RPG",
+        "id": 96,
+      "Nominee": "Final Fantasy XVI",
+      "Developer/Publisher": "Square Enix"
+    },
+    {
+      "Category": "Best RPG",
+        "id": 97,
+      "Nominee": "Lies of P",
+      "Developer/Publisher": "Round8 Studio/Neowiz Games"
+    },
+    {
+      "Category": "Best RPG",
+        "id": 98,
+      "Nominee": "Sea of Stars",
+      "Developer/Publisher": "Sabotage Studio"
+    },
+    {
+      "Category": "Best RPG",
+        "id": 99,
+      "Nominee": "Starfield",
+      "Developer/Publisher": "Bethesda Game Studios/Bethesda Softworks"
+    },
+    {
+      "Category": "Best Fighting Game",
+        "id": 100,
+      "Nominee": "God of Rock",
+      "Developer/Publisher": "Modus Studios Brazil/Modus Games"
+    },
+    {
+      "Category": "Best Fighting Game",
+        "id": 101,
+      "Nominee": "Mortal Kombat 1",
+      "Developer/Publisher": "NetherRealm Studios/WB Games"
+    },
+    {
+      "Category": "Best Fighting Game",
+        "id": 102,
+      "Nominee": "Nickelodeon All-Star Brawl 2",
+      "Developer/Publisher": "Ludosity/Fair Play Labs/GameMill Entertainment"
+    },
+    {
+      "Category": "Best Fighting Game",
+        "id": 103,
+      "Nominee": "Pocket Bravery",
+      "Developer/Publisher": "Statera Studio/PQube"
+    },
+    {
+      "Category": "Best Fighting Game",
+        "id": 104,
+      "Nominee": "Street Fighter 6",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Best Family Game",
+        "id": 105,
+      "Nominee": "Disney Illusion Island",
+      "Developer/Publisher": "Dlala Studios/Disney"
+    },
+    {
+      "Category": "Best Family Game",
+        "id": 106,
+      "Nominee": "Party Animals",
+      "Developer/Publisher": "Recreate Games"
+    },
+    {
+      "Category": "Best Family Game",
+        "id": 107,
+      "Nominee": "Pikmin 4",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Family Game",
+        "id": 108,
+      "Nominee": "Sonic Superstars",
+      "Developer/Publisher": "Arzest/Sonic Team/Sega"
+    },
+    {
+      "Category": "Best Family Game",
+        "id": 109,
+      "Nominee": "Super Mario Bros. Wonder",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Sim/Strategy Game",
+        "id": 110,
+      "Nominee": "Advance Wars 1+2: Re-Boot Camp",
+      "Developer/Publisher": "WayForward/Nintendo"
+    },
+    {
+      "Category": "Best Sim/Strategy Game",
+        "id": 111,
+      "Nominee": "Cities: Skylines II",
+      "Developer/Publisher": "Colossal Order/Paradox Interactive"
+    },
+    {
+      "Category": "Best Sim/Strategy Game",
+        "id": 112,
+      "Nominee": "Company of Heroes 3",
+      "Developer/Publisher": "Relic Entertainment/Sega"
+    },
+    {
+      "Category": "Best Sim/Strategy Game",
+        "id": 113,
+      "Nominee": "Fire Emblem Engage",
+      "Developer/Publisher": "Intelligent Systems/Nintendo"
+    },
+    {
+      "Category": "Best Sim/Strategy Game",
+        "id": 114,
+      "Nominee": "Pikmin 4",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Best Sports/Racing",
+        "id": 115,
+      "Nominee": "EA Sports FC 24",
+      "Developer/Publisher": "EA Vancouver/EA Romania/EA Sports"
+    },
+    {
+      "Category": "Best Sports/Racing",
+        "id": 116,
+      "Nominee": "F1 23",
+      "Developer/Publisher": "Codemasters/EA Sports"
+    },
+    {
+      "Category": "Best Sports/Racing",
+        "id": 117,
+      "Nominee": "Forza Motorsport",
+      "Developer/Publisher": "Turn 10 Studios/Xbox Game Studios"
+    },
+    {
+      "Category": "Best Sports/Racing",
+        "id": 118,
+      "Nominee": "Hot Wheels Unleashed 2: Turbocharged",
+      "Developer/Publisher": "Milestone"
+    },
+    {
+      "Category": "Best Sports/Racing",
+        "id": 119,
+      "Nominee": "The Crew Motorfest",
+      "Developer/Publisher": "Ubisoft Ivory Tower/Ubisoft"
+    },
+    {
+      "Category": "Best Multiplayer",
+        "id": 120,
+      "Nominee": "Baldur’s Gate 3",
+      "Developer/Publisher": "Larian Studios"
+    },
+    {
+      "Category": "Best Multiplayer",
+        "id": 121,
+      "Nominee": "Diablo IV",
+      "Developer/Publisher": "Blizzard Entertainment"
+    },
+    {
+      "Category": "Best Multiplayer",
+        "id": 122,
+      "Nominee": "Party Animals",
+      "Developer/Publisher": "Recreate Games"
+    },
+    {
+      "Category": "Best Multiplayer",
+        "id": 123,
+      "Nominee": "Street Fighter 6",
+      "Developer/Publisher": "Capcom"
+    },
+    {
+      "Category": "Best Multiplayer",
+        "id": 124,
+      "Nominee": "Super Mario Bros. Wonder",
+      "Developer/Publisher": "Nintendo EPD/Nintendo"
+    },
+    {
+      "Category": "Most Anticipated Game",
+        "id": 125,
+      "Nominee": "Final Fantasy VII Rebirth",
+      "Developer/Publisher": "Square Enix"
+    },
+    {
+      "Category": "Most Anticipated Game",
+        "id": 126,
+      "Nominee": "Hades II",
+      "Developer/Publisher": "Supergiant Games"
+    },
+    {
+      "Category": "Most Anticipated Game",
+        "id": 127,
+      "Nominee": "Like A Dragon: Infinite Wealth",
+      "Developer/Publisher": "Ryu Ga Gotoku Studio/Sega"
+    },
+    {
+      "Category": "Most Anticipated Game",
+        "id": 128,
+      "Nominee": "Star Wars Outlaws",
+      "Developer/Publisher": "Massive Entertainment/Ubisoft"
+    },
+    {
+      "Category": "Most Anticipated Game",
+        "id": 129,
+      "Nominee": "Tekken 8",
+      "Developer/Publisher": "Bandai Namco/Arika"
+    },
+    {
+      "Category": "Content Creator of the Year",
+        "id": 130,
+      "Nominee": "IronMouse",
+      "Developer/Publisher": ""
+    },
+    {
+      "Category": "Content Creator of the Year",
+        "id": 131,
+      "Nominee": "PeopleMakeGames",
+      "Developer/Publisher": ""
+    },
+    {
+      "Category": "Content Creator of the Year",
+        "id": 132,  
+      "Nominee": "Quackity",
+      "Developer/Publisher": ""
+    },
+    {
+      "Category": "Content Creator of the Year",
+        "id": 133,
+      "Nominee": "Spreen",
+      "Developer/Publisher": ""
+    },
+    {
+      "Category": "Content Creator of the Year",
+        "id": 134,
+      "Nominee": "SypherPK",
+      "Developer/Publisher": ""
+    },
+    {
+      "Category": "Best Esports Game",
+        "id": 135,
+      "Nominee": "Counter-Strike 2",
+      "Developer/Publisher": "Valve"
+    },
+    {
+      "Category": "Best Esports Game",
+        "id": 136,
+      "Nominee": "Dota 2",
+      "Developer/Publisher": "Valve"
+    },
+    {
+      "Category": "Best Esports Game",
+        "id": 137,
+      "Nominee": "League of Legends",
+      "Developer/Publisher": "Riot Games"
+    },
+    {
+      "Category": "Best Esports Game",
+        "id": 138,
+      "Nominee": "PUBG Mobile",
+      "Developer/Publisher": "LightSpeed Studios/Tencent Games"
+    },
+    {
+      "Category": "Best Esports Game",
+        "id": 139,
+      "Nominee": "Valorant",
+      "Developer/Publisher": "Riot Games"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 140,
+      "Nominee": "Lee “Faker” Sang-hyeok",
+      "Developer/Publisher": "League of Legends"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 141,
+      "Nominee": "Mathieu “ZywOo” Herbaut",
+      "Developer/Publisher": "CS:GO"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 142,
+      "Nominee": "Max “Demon1″ Mazanov",
+      "Developer/Publisher": "Valorant"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 143,
+      "Nominee": "Paco “HyDra” Rusiewiez",
+      "Developer/Publisher": "Call of Duty"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 144,
+      "Nominee": "Park “Ruler” Jae-hyuk",
+      "Developer/Publisher": "League of Legends"
+    },
+    {
+      "Category": "Best Esports Athlete",
+        "id": 145,  
+      "Nominee": "Phillip “ImperialHal” Dosen",
+      "Developer/Publisher": "Apex Legends"
+    },
+    {
+      "Category": "Best Esports Team",
+        "id": 146,
+      "Nominee": "Evil Geniuses",
+      "Developer/Publisher": "Valorant"
+    },
+    {
+      "Category": "Best Esports Team",
+        "id": 147,
+      "Nominee": "Fnatic",
+      "Developer/Publisher": "Valorant"
+    },
+    {
+      "Category": "Best Esports Team",
+        "id": 148,
+      "Nominee": "Gaimin Gladiators",
+      "Developer/Publisher": "Dota 2"
+    },
+    {
+      "Category": "Best Esports Team",
+        "id": 149,
+      "Nominee": "JD Gaming",
+      "Developer/Publisher": "League of Legends"
+    },
+    {
+      "Category": "Best Esports Team",
+        "id": 150,
+      "Nominee": "Team Vitality",
+      "Developer/Publisher": "Counter-Strike"
+    },
+    {
+      "Category": "Best Esports Coach",
+        "id": 151,
+      "Nominee": "Christine “potter” Chi",
+      "Developer/Publisher": "Evil Geniuses - Valorant"
+    },
+    {
+      "Category": "Best Esports Coach",
+        "id": 152,
+      "Nominee": "Danny “zonic” Sorensen",
+      "Developer/Publisher": "Team Falcons - Counter-Strike"
+    },
+    {
+      "Category": "Best Esports Coach",
+        "id": 153,
+      "Nominee": "Jordan “Gunba” Graham",
+      "Developer/Publisher": "Florida Mayhem - Overwatch"
+    },
+    {
+      "Category": "Best Esports Coach",
+        "id": 154,
+      "Nominee": "Remy “XTQZZZ” Quoniam",
+      "Developer/Publisher": "Team Vitality - Counter-Strike"
+    },
+    {
+      "Category": "Best Esports Coach",
+        "id": 155,
+      "Nominee": "Yoon “Homme” Sung-young",
+      "Developer/Publisher": "JD Gaming - League of Legends"
+    },
+    {
+      "Category": "Best Esports Event",
+        "id": 156,
+      "Nominee": "2023 League of Legends World Championship",
+      "Developer/Publisher": "Riot Games"
+    },
+    {
+      "Category": "Best Esports Event",
+        "id": 157,
+      "Nominee": "Blast.tv Paris Major 2023",
+      "Developer/Publisher": "BLAST"
+    },
+    {
+      "Category": "Best Esports Event",
+        "id": 158,  
+      "Nominee": "EVO 2023",
+      "Developer/Publisher": "Sony Interactive Entertainment"
+    },
+    {
+      "Category": "Best Esports Event",
+        "id": 159,
+      "Nominee": "The International Dota 2 Championships 2023",
+      "Developer/Publisher": "Valve"
+    },
+    {
+      "Category": "Best Esports Event",
+        "id": 160,
+      "Nominee": "VALORANT Champions 2023",
+      "Developer/Publisher": "Riot Games"
+    }
+  ]
